@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+.contenedor{
+    
+    width: 400px;
+    padding-top: 20px !important;
+    padding-bottom: 25px !important;
+    background: rgb(51, 139, 255);
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    -webkit-box-shadow: 6px 20px 20px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 20px 20px 8px rgba(0,0,0,0.75);
+    box-shadow: 6px 20px 20px 8px rgba(0,0,0,0.75);
+    border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border: 0px solid #000000;
+
+}
+
+.caja{
+    width: 300px;
+    margin: auto;
+    background: #b6caff;
+    padding: 20px;
+    border-radius: 12px 12px 12px 12px;
+   
+}
+
+
+
+label{
+     position: relative;
+    left: 20px;
+    margin-top: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="submit"]{
+    margin-top: 12px;
+    padding: 8px;
+    display: block;
+    position: relative;
+    left: 90px;
+    font-size: 14;
+    background: #ff3d3d;
+    border: 0px solid #000000;
+    transition: all .1s ease;
+    text-align: center;
+}
+
+input[type="submit"]:hover{
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    border: 0px solid #000000;
+    transition: all .1s ease;
+    background: #eb0808;
+    color: white;
+  
+}
+
+#usuario{
+    padding: 2px;
+    position: relative;
+    left: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+input[type="text"]{
+    padding: 2px;
+    width: 80%;
+    position: relative;
+    left: 20px;
+}

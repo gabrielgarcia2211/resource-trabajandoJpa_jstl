@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+    font-size: 14px !important;
+}
+
+.principal{
+
+    width: 500px;
+    padding-top: 20px !important;
+    padding-bottom: 25px !important;
+    background: #6CD4FF;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    -webkit-box-shadow: 6px 20px 20px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 20px 20px 8px rgba(0,0,0,0.75);
+    box-shadow: 6px 20px 20px 8px rgba(0,0,0,0.75);
+    border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border: 0px solid #000000;
+
+}
+
+.contenedor{
+    margin: auto;
+    width: 350px;
+    padding: 25px;
+    background: #F24333;
+
+}
+
+.contenedor p{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.contenedor a{
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    color: #30638E;
+    margin-bottom: 12px;
+    text-align: center;
+    background: #D6E3F8;
+    border-radius: 22px 22px 22px 22px;
+    -moz-border-radius: 22px 22px 22px 22px;
+    -webkit-border-radius: 22px 22px 22px 22px;
+    border: 0px solid #000000;
+    transition: all .1s ease;
+    text-decoration: none;
+}
+
+.contenedor a:hover{
+    transition: all .1s ease;
+    background: rgb(17, 104, 243);
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+
+}
+
+input[type="text"]:focus{
+    color: #2f00ff;
+    border: 2px solid;
+}
